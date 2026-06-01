@@ -19,7 +19,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v6
       - name: Got Depd
-        uses: ./.github/actions/cache-depnd
+        uses: ./.github/actions/cache-depnd/ #C:\Users\elkas\OneDrive\Desktop\git\practic-action-custom-composite\.github\actions\cache-depnd\action.yml
       - name: Test code
         id: run-tests
         run: npm run test
