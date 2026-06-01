@@ -10,7 +10,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v6
       - name: Got Depd
-        uses: ./.github/actions/cache-depnd
+        uses: ./.github/actions/cache-depnd/
       - name: Lint code
         run: npm run lint
   test:
